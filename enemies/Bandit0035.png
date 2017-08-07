@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta http-equiv="Content-Type" CONTENT="text/html; charset=utf-8">
+<title>ERROR: The requested URL could not be retrieved</title>
+<style type="text/css"><!-- 
+ /*
+ Stylesheet for Squid Error pages
+ Adapted from design by Free CSS Templates
+ http://www.freecsstemplates.org
+ Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+/* Page basics */
+* {
+	font-family: verdana, sans-serif;
+}
+
+html body {
+	margin: 0;
+	padding: 0;
+	background: #ffffff;
+	font-size: 12px;
+	color: #1e1e1e;
+}
+
+/* Page displayed title area */
+#titles {
+	margin-left: 15px;
+	padding: 10px;
+	padding-left: 100px;
+	background: url(data:image/gif;base64,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) no-repeat left;
+}
+
+/* initial title */
+#titles h1 {
+	color: #000000;
+}
+#titles h2 {
+	color: #000000;
+}
+
+/* special event: FTP success page titles */
+#titles ftpsuccess {
+	background-color:#00ff00;
+	width:100%;
+}
+
+/* Page displayed body content area */
+#content {
+	padding: 10px;
+	background: #ffffff;
+}
+
+/* General text */
+p {
+}
+
+/* error brief description */
+#error p {
+}
+
+/* some data which may have caused the problem */
+#data {
+}
+
+/* the error message received from the system or other software */
+#sysmsg {
+}
+
+pre {
+    font-family:sans-serif;
+}
+
+/* special event: FTP / Gopher directory listing */
+#dirmsg {
+    font-family: courier;
+    color: black;
+    font-size: 10pt;
+}
+#dirlisting {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#dirlisting tr.entry td.icon,td.filename,td.size,td.date {
+    border-bottom: groove;
+}
+#dirlisting td.size {
+    width: 50px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+/* horizontal lines */
+hr {
+	margin: 0;
+}
+
+/* page displayed footer area */
+#footer {
+	font-size: 9px;
+	padding-left: 10px;
+}
+
+
+body
+:lang(fa) { direction: rtl; font-size: 100%; font-family: Tahoma, Roya, sans-serif; float: right; }
+:lang(he) { direction: rtl; }
+ --></style>
+</head><body id=ERR_CONNECT_FAIL>
+<div id="titles">
+<h1>ERROR</h1>
+<h2>The requested URL could not be retrieved</h2>
+</div>
+<hr>
+
+<div id="content">
+<p>The following error was encountered while trying to retrieve the URL: <a href="http://i220.photobucket.com/albums/dd316/terencemartin/Bandit0035.png">http://i220.photobucket.com/albums/dd316/terencemartin/Bandit0035.png</a></p>
+
+<blockquote id="error">
+<p><b>Connection to 209.17.68.129 failed.</b></p>
+</blockquote>
+
+<p id="sysmsg">The system returned: <i>(111) Connection refused</i></p>
+
+<p>The remote host or network may be down. Please try the request again.</p>
+
+<p>Your cache administrator is <a href="mailto:it-helpdesk@bcm.edu?subject=CacheErrorInfo%20-%20ERR_CONNECT_FAIL&amp;body=CacheHost%3A%20bcuda-ext-wf1.bcm.edu%0D%0AErrPage%3A%20ERR_CONNECT_FAIL%0D%0AErr%3A%20(111)%20Connection%20refused%0D%0ATimeStamp%3A%20Wed,%2002%20Aug%202017%2019%3A09%3A23%20GMT%0D%0A%0D%0AClientIP%3A%20128.249.95.23%0D%0AServerIP%3A%20i220.photobucket.com%0D%0A%0D%0AHTTP%20Request%3A%0D%0AGET%20%2Falbums%2Fdd316%2Fterencemartin%2FBandit0035.png%20HTTP%2F1.1%0AUser-Agent%3A%20curl%2F7.24.0%20(x86_64-apple-darwin12.0)%20libcurl%2F7.24.0%20OpenSSL%2F0.9.8z%20zlib%2F1.2.5%0D%0AHost%3A%20i220.photobucket.com%0D%0AAccept%3A%20*%2F*%0D%0AReferer%3A%20http%3A%2F%2Fi220.photobucket.com%2Falbums%2Fdd316%2Fterencemartin%2FBandit0035.png.html%0D%0A%0D%0A%0D%0A">it-helpdesk@bcm.edu</a>.</p>
+
+<br>
+</div>
+
+<hr>
+<div id="footer">
+<p>Generated Wed, 02 Aug 2017 19:09:23 GMT by bcuda-ext-wf1.bcm.edu (http_scan_byf/3.3.1)</p>
+<!-- ERR_CONNECT_FAIL -->
+</div>
+</body></html>
